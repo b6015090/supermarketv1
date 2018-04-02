@@ -2,5 +2,5 @@ package com.ESmith
 
 class TaskController {
 
-    def scaffold = task
+    def scaffold = Tasks
 }

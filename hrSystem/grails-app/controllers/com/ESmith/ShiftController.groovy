@@ -2,5 +2,5 @@ package com.ESmith
 
 class ShiftController {
 
-    def scaffold = shift
+    def scaffold = Shifts
 }

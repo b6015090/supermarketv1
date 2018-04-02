@@ -2,5 +2,5 @@ package com.ESmith
 
 class TeamController {
 
-    def scaffold = team
+    def scaffold = Teams
 }

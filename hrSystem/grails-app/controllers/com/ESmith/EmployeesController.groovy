@@ -2,5 +2,5 @@ package com.ESmith
 
 class EmployeesController {
 
-    def scaffold = employees
+    def scaffold = Employees
 }

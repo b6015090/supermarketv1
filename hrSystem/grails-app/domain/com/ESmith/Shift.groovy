@@ -1,16 +1,15 @@
 package com.ESmith
 
-class Shift {
-
+class Shifts {
 	String timeOfDay
 	String dayOfWeek
 	int numberOfHours
 	String startingTime
 
     static constraints = {
-	timeOfDay blank:false, nullable:false,
-	dayOfWeek blank:false, nullable:false,
-	numberOfHours blank:false, nullable:false,
+	timeOfDay blank:false, nullable:false
+	dayOfWeek blank:false, nullable:false
+	numberOfHours blank:false, nullable:false
 	startingTime blank:false, nullable:false
     }
 }
