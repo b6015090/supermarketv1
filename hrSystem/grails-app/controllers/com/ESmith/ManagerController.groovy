@@ -2,5 +2,5 @@ package com.ESmith
 
 class ManagerController {
 
-    def scaffold = Managersa
+    def scaffold = Manager
 }

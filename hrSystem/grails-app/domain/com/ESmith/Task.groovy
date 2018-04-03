@@ -1,6 +1,6 @@
 package com.ESmith
 
-class Tasks {
+class Task {
 	String taskName
 	int numberOfPeople
 	String sectionName
@@ -8,6 +8,8 @@ class Tasks {
 	String timeRequired
 	String description
 	Boolean taskCompleted
+
+
 
     static constraints = {
 	taskName blank:false, nullable:false

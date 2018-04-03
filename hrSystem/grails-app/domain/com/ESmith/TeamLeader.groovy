@@ -1,6 +1,6 @@
 package com.ESmith
 
-class TeamLeaders {
+class TeamLeader {
 	String fullName
 	String departmentName
 	String employeeID
@@ -9,9 +9,10 @@ class TeamLeaders {
 	String leaderEmail
 	String password
 
+
     static constraints = {
 	fullName blank:false, nullable:false
-	department blank:false, nullable:false
+	departmentName blank:false, nullable:false
 	employeeID blank:false, nullable:false
 	sectionName blank:false, nullable:false
 	officePhone blank:false, nullable:false

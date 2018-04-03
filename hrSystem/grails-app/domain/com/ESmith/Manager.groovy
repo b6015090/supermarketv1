@@ -1,6 +1,6 @@
 package com.ESmith
 
-class Managersa {
+class Manager {
 	String fullName
 	String username
 	String password
