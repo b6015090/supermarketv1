@@ -9,6 +9,12 @@ class Task {
 	String description
 	Boolean taskCompleted
 
+	static belongsTo = [Team, Employee]
+	static hasMany = [shifts:Shift, employees:Employee, teams:Team]
+
+	String toString(){
+		return taskName
+	}
 
 
     static constraints = {
@@ -19,5 +25,9 @@ class Task {
 	timeRequired blank:false, nullable:false
 	description blank:false, nullable:false
 	taskCompleted blank:false, nullable:false
+
+	teams blank:true, nullable:true
+	employees blank:true, nullable:true
+	shifts blank:true, nullable:true
     }
 }
